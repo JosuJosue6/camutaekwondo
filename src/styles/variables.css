@@ -1,0 +1,20 @@
+:root {
+    font-family: 'DM Sans', Arial, sans-serif;
+    color: #8b72e7;
+    background: #101110;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    --bg: #101110;
+    --bg-soft: #171918;
+    --panel: #1d201e;
+    --text: #f2f1ec;
+    --muted: #a3a6a1;
+    --line: rgba(60, 32, 187, 0.17);
+    --accent: #cc1717;
+    --display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    --body: 'DM Sans', Arial, sans-serif;
+    --max: 1240px;
+    --gutter: clamp(22px, 6.1vw, 96px);
+    --section: clamp(88px, 11vw, 156px);
+    --ease: cubic-bezier(.2, .7, .2, 1)
+}

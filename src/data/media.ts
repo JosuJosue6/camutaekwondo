@@ -1,0 +1,2 @@
+// Imágenes editoriales temporales. Reemplazar por fotografía CAMU optimizada al recibir recursos locales.
+export const media={hero:'https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=2200&q=90',about:'https://images.unsplash.com/photo-1517838277536-f6cf9b9b3b4e?auto=format&fit=crop&w=1100&q=85',training:'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=2200&q=88'}

@@ -1,0 +1,57 @@
+.reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity .7s var(--ease), transform .7s var(--ease)
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0)
+}
+
+.principle-row:nth-child(2),
+.location-card:nth-child(2),
+.instructor-card:nth-child(2) {
+    transition-delay: .08s
+}
+
+.principle-row:nth-child(3),
+.location-card:nth-child(3) {
+    transition-delay: .16s
+}
+
+.principle-row:nth-child(4),
+.location-card:nth-child(4) {
+    transition-delay: .24s
+}
+
+.principle-row:nth-child(5) {
+    transition-delay: .32s
+}
+
+.lightbox-enter-active,
+.lightbox-leave-active {
+    transition: opacity .25s ease
+}
+
+.lightbox-enter-from,
+.lightbox-leave-to {
+    opacity: 0
+}
+
+@media(prefers-reduced-motion:reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important
+    }
+
+    .reveal {
+        opacity: 1;
+        transform: none
+    }
+}

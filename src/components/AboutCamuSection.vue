@@ -1,0 +1,4 @@
+<script setup lang="ts">
+import { media } from '../data/media'
+</script>
+<template><section id="about" class="about section-pad"><div class="wrap about-layout"><div class="about-visual reveal"><img class="about-photo" :src="media.about" alt="Atleta preparándose para entrenar" loading="lazy"/><span class="image-index">CAMU / 001</span><span class="about-vertical">DISCIPLINA EN MOVIMIENTO</span><span class="about-ring">CAMU</span></div><div class="about-copy reveal"><p class="eyebrow">02 / IDENTIDAD</p><h2>¿QUÉ ES<br/><em>CAMU?</em></h2><p class="about-lead">[Descripción institucional por definir.]</p><p class="placeholder-note">Texto institucional pendiente de validar con el PDF.</p><div class="about-facts"><article><span>01</span><h3>MISIÓN</h3><p>[POR DEFINIR]</p></article><article><span>02</span><h3>FUNDACIÓN</h3><p>[POR DEFINIR]</p></article><article><span>03</span><h3>CONTEMPORÁNEO</h3><p>[POR DEFINIR]</p></article></div></div></div></section></template>
